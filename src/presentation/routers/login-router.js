@@ -1,4 +1,4 @@
-const HttpResponse = require('../helpers/missin-param-error')
+const HttpResponse = require('../helpers/http-response')
 
 module.exports = class LoginRouter {
   route (httpRequest) {
