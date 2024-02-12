@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1707700442152" clover="3.2.0">
-  <project timestamp="1707700442153" name="All files">
-    <metrics statements="96" coveredstatements="96" conditionals="19" coveredconditionals="19" methods="10" coveredmethods="10" elements="125" coveredelements="125" complexity="0" loc="96" ncloc="96" packages="3" files="7" classes="7"/>
+<coverage generated="1707701321111" clover="3.2.0">
+  <project timestamp="1707701321111" name="All files">
+    <metrics statements="103" coveredstatements="103" conditionals="20" coveredconditionals="20" methods="11" coveredmethods="11" elements="134" coveredelements="134" complexity="0" loc="103" ncloc="103" packages="4" files="8" classes="8"/>
     <package name="errors">
       <metrics statements="35" coveredstatements="35" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
       <file name="index.js" path="/home/bruno/Documentos/NodeCleanArchiteture/src/presentation/errors/index.js">
@@ -126,6 +126,19 @@
         <line num="29" count="8" type="stmt"/>
         <line num="30" count="15" type="stmt"/>
         <line num="31" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="email-validator.js" path="/home/bruno/Documentos/NodeCleanArchiteture/src/presentation/utils/email-validator.js">
+        <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
   </project>
